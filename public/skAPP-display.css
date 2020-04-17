@@ -1,0 +1,236 @@
+html{
+    width:100%;
+    height:100%;
+    font-family: "Arial";
+    font-size: 1em;
+}
+body{
+    width:100%;
+    height:100%;
+    display:flex;
+    
+    flex-direction: column;
+}
+
+.sk_postcard_title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.sk_postcard_title > h1{
+    padding-left: 5%;
+    width:100%;
+    display: block;
+    font-size: 2em;
+}
+
+
+
+.sk_postcard_screen{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:0px;
+    height:45%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.sk_postcard_screen > .sk_postcard_screen_inner_container{
+    width: 100%;
+    height: 90%;   
+    display:flex;
+    flex-direction: row;
+
+}
+
+.sk_postcard_screen > .sk_postcard_screen_inner_container > .sk_postcard_screen_image_section{
+    flex-basis: 50%;
+    height: 100%;
+    width:50%;
+    border-right:  solid #000000 1.5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sk_postcard_screen > .sk_postcard_screen_inner_container >.sk_postcard_screen_image_section > .sk_postcard_screen_image_section_content{
+    height: 90%;
+    width:80%;
+    border: dashed #000000 1.5px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.sk_postcard_screen > .sk_postcard_screen_inner_container >.sk_postcard_screen_message_section{
+    flex-basis: 50%;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sk_postcard_screen > .sk_postcard_screen_inner_container >.sk_postcard_screen_message_section > .textarea{
+    height: 90%;
+    width:80%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    font-size: 1em;
+}
+
+
+
+.sk_postcard_console{
+    width: 40%;
+    height:25%;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+.sk_postcard_console > .sk_postcard_console_font_section{
+    flex-basis: 30%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+
+.sk_postcard_console > .sk_postcard_console_font_section > h1, .sk_postcard_console_color_section > h1{
+    font-size:1em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.sk_postcard_console > .sk_postcard_console_font_section > ul > li{
+    font-size:1em;
+    font-weight: normal;
+    height: 1.5em;
+    margin-top:2%;
+}
+
+.sk_postcard_console > .sk_postcard_console_color_section{
+    flex-basis: 45%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+
+.sk_postcard_console > .sk_postcard_console_share_section{
+    flex-basis: 25%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sk_postcard_console > .sk_postcard_console_share_section >.sk_share_button{
+    width:100%;
+    height:30%;
+    border: solid #000000;
+    font-weight: bolder;
+    background-color: white;
+}
+
+
+.sk_postcard_footer{
+    width: 100%;
+    height:15%;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sk_postcard_footer > h3{
+    padding-bottom: 2%;
+}
+
+.sk_painting_board{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    flex-basis:100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sk_painting_board > .sk_painting_items{
+    flex-basis: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    height: 40px;
+
+    
+}
+
+.sk_painting_board > .selected_color{
+    box-sizing: border-box;
+    border: solid #000000 2px;
+}
+
+.Indie_Flower{
+    font-family: "Indie Flower";
+}
+
+.Dancing_Script{
+    font-family: "Dancing Script";
+}
+
+.Long_Cang{
+    font-family: "Long Cang";
+}
+
+.Homemade_Apple{
+    font-family: "Homemade Apple";
+}
+
+.color_1{
+   background-color: #e6e2cf;
+}
+
+.color_2{
+    background-color: #dbcaac;
+ }
+
+ .color_3{
+    background-color: #c9cbb3;
+ }
+
+ .color_4{
+    background-color: #bbc9ca;
+ }
+
+ .color_5{
+    background-color: #a6a5b5;
+ }
+
+ .color_6{
+    background-color: #b5a6ab;
+ }
+
+ .color_7{
+    background-color: #eccfcf;
+ }
+
+ .color_8{
+    background-color: #eceeeb;
+ }
+
+ .color_9{
+    background-color: #bab9b5;
+ }
+

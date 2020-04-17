@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>creator</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Homemade+Apple|Indie+Flower|Long+Cang&display=swap">
+        <link rel="stylesheet" href="./skAPP-creator.css">
+
+    </head>
+
+    <body>
+        <div class="sk_postcard_title Dancing_Script">
+           <h1>Daily Postcard creator</h1> 
+        </div>
+        <div class="sk_postcard_screen color_1" id="sk_postcard_screen">
+            <div class="sk_postcard_screen_inner_container">
+                <div class="sk_postcard_screen_image_section">
+                    <div class="sk_postcard_screen_image_section_content">
+                        <h1>Choose Image</h1>
+                    </div>
+                </div>
+                <div class="sk_postcard_screen_message_section">
+                    <textarea class="textarea Indie_Flower" id="sk_postcard_textarea">Write your message here!</textarea>
+                </div>
+            </div>
+        </div>
+        <div class="sk_postcard_console">
+            
+            <div class="sk_postcard_console_font_section">
+                <h1>Choose your font</h1>
+                <ul id="font_selector">
+                </ul>
+            </div>
+            <div class="sk_postcard_console_color_section">
+                <h1>Choose your color</h1>
+                <div class="sk_painting_board" id="color_selector">
+                </div>
+            </div>
+            <div class="sk_postcard_console_share_section">
+                <button class="sk_share_button" id="submit_button">
+                    Share postcard
+                </button>
+            </div>
+        </div>
+    
+        <script src="skAPP-creator.js"></script>
+    </body>
+
+</html>
